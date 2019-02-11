@@ -1,0 +1,44 @@
+sample_name	total_templates	total_reads	productive_templates	total_productive_reads	fraction_productive	total_rearrangements	productive_rearrangements	productive_clonality	max_productive_frequency	locus	sample_tags	sku	test_name
+05_CD8+CD45RA+CD137+	na	708798	na	589162	0.8312	479	362	0.5810	0.181739494	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD137+, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+05_CD8+naive	na	9504816	na	7965854	0.8381	92573	77337	0.3799	0.162652612	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD8+, Cytomegalovirus +, Naive T cells, Sorted Cells, T cells, gDNA		
+04_CD8+CD45RA+	na	14808256	na	10750464	0.7260	11249	8995	0.6848	0.251446158	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+05_CD4+	na	11881909	na	10244750	0.8622	171046	145748	0.1440	0.0142957121	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD4+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+05_CD8+CD137+	na	6954925	na	5687958	0.8178	9775	8006	0.6095	0.334673882	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD137+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+04_PBMC	na	8063445	na	6122483	0.7593	160616	136175	0.2666	0.0429570824	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, Cytomegalovirus +, PBMC, T cells, gDNA		
+05_PBMC	na	11037563	na	9457092	0.8568	211984	181589	0.2282	0.0343558043	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, Cytomegalovirus +, PBMC, T cells, gDNA		
+04_CD8+CD45RA+CD137+	na	5033389	na	2247490	0.4465	753	398	0.6627	0.389543891	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD137+, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+04_CD8+mem	na	9074151	na	7166433	0.7898	43968	36770	0.4371	0.138705403	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD8+, Cytomegalovirus +, Memory T cells, Sorted Cells, T cells, gDNA		
+04_CD8+naive	na	5963772	na	4718141	0.7911	117487	99023	0.2816	0.0782036856	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD8+, Cytomegalovirus +, Naive T cells, Sorted Cells, T cells, gDNA		
+04_CD8+CD137+	na	3069384	na	2321860	0.7565	1755	1371	0.5940	0.267669886	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD137+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+05_CD8+CD45RA+	na	14808951	na	13104114	0.8849	4325	3300	0.6388	0.208397686	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+05_CD8+mem	na	9711772	na	8188383	0.8431	31546	26185	0.4557	0.199754462	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD8+, Cytomegalovirus +, Memory T cells, Sorted Cells, T cells, gDNA		
+01_PBMC	na	12913636	na	10472888	0.8110	209399	171792	0.0936	0.0264281444	TCRB	65+ Years (Old Age), 70-74 Years, 71 Years, Cytomegalovirus -, PBMC, T cells, gDNA		
+02_PBMC	na	15548124	na	13267098	0.8533	135136	112801	0.0677	0.0046784911358154985	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, Cytomegalovirus -, PBMC, T cells, gDNA		
+01_CD4+	na	9241325	na	7615777	0.8241	281364	232222	0.0541	0.001388827488443187	TCRB	65+ Years (Old Age), 70-74 Years, 71 Years, CD4+, Cytomegalovirus -, Sorted Cells, T cells, gDNA		
+02_CD4+	na	19642958	na	16807730	0.8557	289643	244643	0.0521	0.0012875028463680584	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD4+, Cytomegalovirus -, Sorted Cells, T cells, gDNA		
+01_CD8+naive	na	8856553	na	7174442	0.8101	264158	218194	0.1100	0.0566570908	TCRB	65+ Years (Old Age), 70-74 Years, 71 Years, CD8+, Cytomegalovirus -, Naive T cells, Sorted Cells, T cells, gDNA		
+02_CD8+naive	na	11146064	na	9469980	0.8496	300783	252819	0.1034	0.0279707033	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD8+, Cytomegalovirus -, Naive T cells, Sorted Cells, T cells, gDNA		
+01_CD8+mem	na	11670125	na	9742851	0.8349	75447	61064	0.3238	0.0796143785	TCRB	65+ Years (Old Age), 70-74 Years, 71 Years, CD8+, Cytomegalovirus -, Memory T cells, Sorted Cells, T cells, gDNA		
+08_CD8+naive	na	15066696	na	12543827	0.8326	320337	262136	0.0841	0.0172018483	TCRB	65+ Years (Old Age), 70-74 Years, 74 Years, CD8+, Cytomegalovirus +, Naive T cells, Sorted Cells, T cells, gDNA		
+07_CD8+CD45RA+	na	24417929	na	16700650	0.6840	42910	35252	0.5046	0.112880275	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+08_CD8+mem	na	10740240	na	9519142	0.8863	32963	26797	0.4885	0.230544522	TCRB	65+ Years (Old Age), 70-74 Years, 74 Years, CD8+, Cytomegalovirus +, Memory T cells, Sorted Cells, T cells, gDNA		
+07_PBMC	na	8951797	na	7367449	0.8230	93231	77072	0.1546	0.0490580946	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, Cytomegalovirus +, PBMC, T cells, gDNA		
+03_CD8+CD45RA+	na	22888685	na	19465338	0.8504	56986	45991	0.4465	0.19740659	TCRB	65+ Years (Old Age), 70-74 Years, 72 Years, CD45RA+, CD8+, Cytomegalovirus -, Sorted Cells, T cells, gDNA		
+07_CD4+	na	8568778	na	7234023	0.8442	271901	228236	0.1453	0.0691334531	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD4+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+06_CD8+CD45RA+	na	21210926	na	17123136	0.8073	27629	22201	0.6517	0.397263259	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+03_PBMC	na	16799066	na	14024627	0.8348	177693	145953	0.0591	0.008153728376988358	TCRB	65+ Years (Old Age), 70-74 Years, 72 Years, Cytomegalovirus -, PBMC, T cells, gDNA		
+07_CD8+naive	na	12588816	na	10410387	0.8270	273645	228386	0.0653	0.0104921171	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD8+, Cytomegalovirus +, Naive T cells, Sorted Cells, T cells, gDNA		
+06_PBMC	na	8599517	na	7214291	0.8389	147265	120553	0.1170	0.0545561574	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, Cytomegalovirus +, PBMC, T cells, gDNA		
+08_CD8+CD45RA+	na	5638597	na	5042490	0.8943	15305	12590	0.6311	0.282649845	TCRB	65+ Years (Old Age), 70-74 Years, 74 Years, CD45RA+, CD8+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+03_CD4+	na	7938179	na	6643864	0.8370	278247	232905	0.0555	9.392125108470145E-4	TCRB	65+ Years (Old Age), 70-74 Years, 72 Years, CD4+, Cytomegalovirus -, Sorted Cells, T cells, gDNA		
+07_CD8+mem	na	20790985	na	15164915	0.7294	33686	27175	0.4122	0.102130279	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD8+, Cytomegalovirus +, Memory T cells, Sorted Cells, T cells, gDNA		
+06_CD4+	na	11963194	na	9991162	0.8352	247825	204619	0.0731	0.0302084982	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD4+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+08_PBMC	na	3738397	na	3210254	0.8587	119509	99336	0.2256	0.0668458045	TCRB	65+ Years (Old Age), 70-74 Years, 74 Years, Cytomegalovirus +, PBMC, T cells, gDNA		
+03_CD8+naive	na	19566187	na	16093026	0.8225	271292	220540	0.1162	0.0252352171	TCRB	65+ Years (Old Age), 70-74 Years, 72 Years, CD8+, Cytomegalovirus -, Naive T cells, Sorted Cells, T cells, gDNA		
+06_CD8+naive	na	8852479	na	7035080	0.7947	298059	238954	0.0656	0.007609721895847105	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD8+, Cytomegalovirus +, Naive T cells, Sorted Cells, T cells, gDNA		
+08_CD4+	na	13422351	na	11439829	0.8523	462642	382750	0.1505	0.0739583597	TCRB	65+ Years (Old Age), 70-74 Years, 74 Years, CD4+, Cytomegalovirus +, Sorted Cells, T cells, gDNA		
+03_CD8+mem	na	16016839	na	13041375	0.8142	44286	35740	0.3233	0.0742928535	TCRB	65+ Years (Old Age), 70-74 Years, 72 Years, CD8+, Cytomegalovirus -, Memory T cells, Sorted Cells, T cells, gDNA		
+06_CD8+mem	na	16784971	na	15080144	0.8984	30054	24236	0.5588	0.4181346	TCRB	65+ Years (Old Age), 70-74 Years, 73 Years, CD8+, Cytomegalovirus +, Memory T cells, Sorted Cells, T cells, gDNA		
+02_CD8+CD45RA+	na	641618	na	569628	0.8878	17197	14726	0.3936	0.0934030637	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD45RA+, CD8+, Cytomegalovirus -, Sorted Cells, T cells, gDNA		
+02_CD8+mem	na	15257774	na	12903450	0.8457	16569	13294	0.3635	0.0468740538	TCRB	65+ Years (Old Age), 70 Years, 70-74 Years, CD8+, Cytomegalovirus -, Memory T cells, Sorted Cells, T cells, gDNA		
+01_CD8+CD45RA+	na	4317331	na	3208985	0.7433	18779	15582	0.5882	0.485242844	TCRB	65+ Years (Old Age), 70-74 Years, 71 Years, CD45RA+, CD8+, Cytomegalovirus -, Sorted Cells, T cells, gDNA		
