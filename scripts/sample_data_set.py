@@ -38,13 +38,13 @@ def sample_data_set(include_freq, n_to_sample, column, in_csv, out_csv):
     df = pd.read_csv(in_csv, index_col=0)
 
     # This is the total number of occurrences of each sequence in selected_m.
-    seq_counts = np.array(df[column])
+    seq_counts = df[column]
     seq_freqs = seq_counts / sum(seq_counts)
     sampled_seq_v = np.random.multinomial(n_to_sample, seq_freqs)
 
     if include_freq:
         df.reset_index(inplace=True)
-        out_vect = df['index'] + ',' + seq_freqs.map(str)
+        out_vect = df['index'] + ',' + np.array(seq_freqs.map(str))
     else:
         out_vect = df.index
 
@@ -54,7 +54,7 @@ def sample_data_set(include_freq, n_to_sample, column, in_csv, out_csv):
     for i in range(np.max(sampled_seq_v)):
         sampled_seqs += list(out_vect[sampled_seq_v > i])
 
-    to_fake_csv(sampled_seqs, out_csv)
+    to_fake_csv(sampled_seqs, out_csv, include_freq)
 
 
 if __name__ == '__main__':
