@@ -44,7 +44,8 @@ def sample_data_set(include_freq, n_to_sample, min_count, column, in_csv,
     df = pd.read_csv(in_csv, index_col=0)
 
     # This is the total number of occurrences of each sequence in selected_m.
-    seq_counts = np.clip(np.array(df[column]), a_min=min_count, a_max=None)
+    seq_counts = np.array(df[column])
+    seq_counts[seq_counts < min_count] = 0
     seq_freqs = seq_counts / sum(seq_counts)
     sampled_seq_v = np.random.multinomial(n_to_sample, seq_freqs)
 
