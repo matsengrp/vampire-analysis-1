@@ -25,12 +25,18 @@ def to_fake_csv(seq_list, path, include_freq=False):
 @click.option(
     '--n-to-sample', default=100, help="Number of sequences to sample.")
 @click.option(
+    '--min-count',
+    default=5,
+    help="Only include sequences that are found at least this number of times."
+)
+@click.option(
     '--column',
     default='count',
     help="Counts column to use for sampling probabilities.")
 @click.argument('in_csv')
 @click.argument('out_csv')
-def sample_data_set(include_freq, n_to_sample, column, in_csv, out_csv):
+def sample_data_set(include_freq, n_to_sample, min_count, column, in_csv,
+                    out_csv):
     """
     Sample sequences according to the counts given in the specified column and
     then output in a CSV file.
@@ -38,13 +44,13 @@ def sample_data_set(include_freq, n_to_sample, column, in_csv, out_csv):
     df = pd.read_csv(in_csv, index_col=0)
 
     # This is the total number of occurrences of each sequence in selected_m.
-    seq_counts = df[column]
+    seq_counts = np.clip(np.array(df[column]), a_min=min_count, a_max=None)
     seq_freqs = seq_counts / sum(seq_counts)
     sampled_seq_v = np.random.multinomial(n_to_sample, seq_freqs)
 
     if include_freq:
         df.reset_index(inplace=True)
-        out_vect = df['index'] + ',' + np.array(seq_freqs.map(str))
+        out_vect = df['index'] + ',' + seq_freqs.astype('str')
     else:
         out_vect = df.index
 
