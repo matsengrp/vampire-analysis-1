@@ -1,8 +1,14 @@
-# Analysis notebooks and scripts for the first vampire paper
+# Analysis notebooks and scripts for the first paper about [vampire](https://github.com/matsengrp/vampire)
 
-To make the figures in the paper, download processed input data from <https://zenodo.org/record/2619576#.XKElTrfYphE> and place in an `input` directory in the root of this repository. Make an `output` directory as well.
+This repository makes the plots for the paper _Deep generative models for T cell receptor protein sequences_ by Kristian Davidsen, Branden J Olson, William S DeWitt III, Jean Feng, Elias Harkins, Philip Bradley and Frederick A Matsen IV.
 
-Then run these notebooks.
+To make the figures in the paper, download results files from <https://zenodo.org/record/2619576#.XKElTrfYphE> and place in an `input` directory in the root of this repository. Make an `output` directory as well.
+
+Then run these notebooks in the `vampire` conda environment built as described in the main vampire repository.
+You will also need to execute:
+
+    conda install jupyter
+    conda install -c r r-irkernel
 
 
 ## Reproducing results
