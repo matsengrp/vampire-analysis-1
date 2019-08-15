@@ -5,18 +5,18 @@ This repository makes the plots for the paper _Deep generative models for T cell
 To make the figures in the paper, download results files from <https://zenodo.org/record/2619576#.XKElTrfYphE> and place in an `input` directory in the root of this repository. Make an `output` directory as well.
 
 Then run these notebooks in the `vampire` conda environment built as described in the main vampire repository.
-You will also need to execute:
+You will also need to execute jupyter as follows:
 
     conda install jupyter
     conda install -c r r-irkernel
 
+as well as install the R packages `cowplot`, `latex2exp`, and `reshape2`.
+
 
 ## Reproducing results
 
-The results for this paper took quite considerable computing power.
-Things are run in parallel with the `-j` flag to scons.
-To reproduce them you will either need a truly massive computer or figure out how to do cluster submission.
-For the latter, everything is set up to use SLURM, but if you have a different queuing system you will need to sort it out on your own.
+The results for this paper took quite considerable computing power, and require a compute cluster.
+As described in the main vampire repository, you will need to modify the `execute.py` script to work for your cluster in order to do the computation.
 
 ### Comparative analyses
 
@@ -31,7 +31,7 @@ To build the results for plotting,
 This repo also includes a script `prep-cohort-frequency.sh` that prepares files for the cohort frequency analysis.
 If you want to reproduce this analysis,
 
-* download the data [from Adaptive](https://clients.adaptivebiotech.com/pub/emerson-2017-natgen)
+* download [the data](https://clients.adaptivebiotech.com/pub/emerson-2017-natgen) from Adaptive
 * preprocess it using `preprocess_adaptive.py` script in the vampire repository
 * run the `prep-cohort-frequency.sh` script (editing paths)
 * run the `pipe_freq` pipeline with `scons --pipe=pipe_freq` (editing the path in the SConstruct file)
