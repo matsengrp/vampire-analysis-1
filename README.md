@@ -5,7 +5,7 @@ This repository makes the plots for the paper _Deep generative models for T cell
 To make the figures in the paper, download results files from <https://zenodo.org/record/2619576#.XKElTrfYphE> and place in an `input` directory in the root of this repository. Make an `output` directory as well.
 
 Then run these notebooks in the `vampire` conda environment built as described in the main vampire repository.
-You will also need to execute jupyter as follows:
+You will also need to install jupyter as follows:
 
     conda install jupyter
     conda install -c r r-irkernel
@@ -15,8 +15,8 @@ as well as install the R packages `cowplot`, `latex2exp`, and `reshape2`.
 
 ## Reproducing results
 
-The results for this paper took quite considerable computing power, and require a compute cluster.
-As described in the main vampire repository, you will need to modify the `execute.py` script to work for your cluster in order to do the computation.
+The above instructions only concern making plots from output files.
+If you want to reproduce the analysis, you will want to modify the main vampire repository to work with your cluster scheduler and then follow the instructions below.
 
 ### Comparative analyses
 
